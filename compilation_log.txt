@@ -1,0 +1,128 @@
+10:21:12: Exécution des étapes pour le projet bug_datetime...
+10:21:12: Débute : "C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe" C:\dev\bug_datetime_wc\bug_datetime\bug_datetime.pro -spec android-clang "CONFIG+=qtquickcompiler" ANDROID_ABIS="armeabi-v7a"
+10:21:12: Le processus "C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe" s'est terminé normalement.
+10:21:12: Débute : "C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle\prebuilt\windows-x86_64\bin\make.exe" -f C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/Makefile qmake_all
+cd qmake\lib\bug_datetime_base\ && C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\lib\bug_datetime_base\bug_datetime_base.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a"
+cd qmake\lib\bug_datetime_base\ && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile qmake_all
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_base'
+make[1]: Nothing to be done for 'qmake_all'.
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_base'
+cd qmake\lib\bug_datetime_lib\ && C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\lib\bug_datetime_lib\bug_datetime_lib.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a"
+cd qmake\lib\bug_datetime_lib\ && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile qmake_all
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_lib'
+make[1]: Nothing to be done for 'qmake_all'.
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_lib'
+cd qmake\lib\bug_datetime_wrapper\ && C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\lib\bug_datetime_wrapper\bug_datetime_wrapper.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a"
+cd qmake\lib\bug_datetime_wrapper\ && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile qmake_all
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_wrapper'
+make[1]: Nothing to be done for 'qmake_all'.
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_wrapper'
+cd qmake\prg\bug_datetime\ && C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\prg\bug_datetime\bug_datetime.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a"
+cd qmake\prg\bug_datetime\ && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile qmake_all
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/prg/bug_datetime'
+make[1]: Nothing to be done for 'qmake_all'.
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/prg/bug_datetime'
+10:21:16: Le processus "C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle\prebuilt\windows-x86_64\bin\make.exe" s'est terminé normalement.
+10:21:16: Débute : "C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle\prebuilt\windows-x86_64\bin\make.exe" 
+cd qmake\lib\bug_datetime_base\ && ( if not exist Makefile C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\lib\bug_datetime_base\bug_datetime_base.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a" ) && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile 
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_base'
+C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++ -c -target armv7a-linux-androideabi21 -fno-limit-debug-info -fPIC -fstack-protector-strong -DANDROID -isystem C:/dev/bug_datetime_wc/bug_datetime/qmake/lib/bug_datetime_base/../../../boost/1.70.0 -O2 -mthumb -Oz -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -I..\..\..\..\bug_datetime\qmake\lib\bug_datetime_base -I. -I..\..\..\..\bug_datetime\boost\1.70.0 -IC:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\mkspecs\android-clang -o armeabi-v7a\base.obj ..\..\..\..\bug_datetime\qmake\lib\bug_datetime_base\base.cpp
+del libbug_datetime_base_armeabi-v7a.so
+C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++ -target armv7a-linux-androideabi21 -fno-limit-debug-info -Wl,--build-id=sha1 -Wl,--no-undefined -Wl,-z,noexecstack -shared -Wl,-soname,libbug_datetime_base_armeabi-v7a.so -o libbug_datetime_base_armeabi-v7a.so armeabi-v7a\base.obj  -LC:/dev/bug_datetime_wc/bug_datetime/qmake/lib/bug_datetime_base/../../../boost/1.70.0/lib/android_armeabi-v7a/r21b/boost_date_time-mt-a32.a -LC:/dev/bug_datetime_wc/bug_datetime/qmake/lib/bug_datetime_base/../../../boost/1.70.0/lib/android_armeabi-v7a/r21b/boost_system-mt-a32.a   -llog -lz -lm -ldl -lc 
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_base'
+cd qmake\lib\bug_datetime_lib\ && ( if not exist Makefile C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\lib\bug_datetime_lib\bug_datetime_lib.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a" ) && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile 
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_lib'
+C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++ -c -target armv7a-linux-androideabi21 -fno-limit-debug-info -fPIC -fstack-protector-strong -DANDROID -isystem C:/dev/bug_datetime_wc/bug_datetime/qmake/lib/bug_datetime_lib/../../../boost1.70.0 -O2 -mthumb -Oz -D_REENTRANT -Wall -W -fPIC -DQT_NO_DEBUG -DQT_CORE_LIB -I..\..\..\..\bug_datetime\qmake\lib\bug_datetime_lib -I. -I..\..\..\..\bug_datetime\boost\1.70.0 -IC:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\include -IC:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\include\QtCore -Iarmeabi-v7a -IC:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\mkspecs\android-clang -o armeabi-v7a\lib.obj ..\..\..\..\bug_datetime\qmake\lib\bug_datetime_lib\lib.cpp
+del libbug_datetime_lib_armeabi-v7a.so
+C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++ -target armv7a-linux-androideabi21 -fno-limit-debug-info -Wl,--build-id=sha1 -Wl,--no-undefined -Wl,-z,noexecstack -shared -Wl,-soname,libbug_datetime_lib_armeabi-v7a.so -o libbug_datetime_lib_armeabi-v7a.so armeabi-v7a\lib.obj  -LC:/dev/bug_datetime_wc/bug_datetime/qmake/lib/bug_datetime_lib/../../../boost/1.70.0/lib/android_armeabi-v7a/r21b/boost_date_time-mt-a32.a -LC:/dev/bug_datetime_wc/bug_datetime/qmake/lib/bug_datetime_lib/../../../boost/1.70.0/lib/android_armeabi-v7a/r21b/boost_system-mt-a32.a C:/Android/r21b_Qt5_14/QtCreator5_14_2/5.14.2/android/lib/libQt5Core_armeabi-v7a.so   -llog -lz -lm -ldl -lc 
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_lib'
+cd qmake\lib\bug_datetime_wrapper\ && ( if not exist Makefile C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\lib\bug_datetime_wrapper\bug_datetime_wrapper.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a" ) && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile 
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_wrapper'
+C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++ -c -target armv7a-linux-androideabi21 -fno-limit-debug-info -fPIC -fstack-protector-strong -DANDROID -O2 -mthumb -Oz -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -I..\..\..\..\bug_datetime\qmake\lib\bug_datetime_wrapper -I. -IC:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\mkspecs\android-clang -o armeabi-v7a\wrapper.obj ..\..\..\..\bug_datetime\qmake\lib\bug_datetime_wrapper\wrapper.cpp
+del libbug_datetime_wrapper_armeabi-v7a.so
+C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++ -target armv7a-linux-androideabi21 -fno-limit-debug-info -Wl,--build-id=sha1 -Wl,--no-undefined -Wl,-z,noexecstack -shared -Wl,-soname,libbug_datetime_wrapper_armeabi-v7a.so -o libbug_datetime_wrapper_armeabi-v7a.so armeabi-v7a\wrapper.obj  C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_wrapper/../../lib/bug_datetime_base/libbug_datetime_base_armeabi-v7a.so C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_wrapper/../../lib/bug_datetime_lib/libbug_datetime_lib_armeabi-v7a.so   -llog -lz -lm -ldl -lc 
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_wrapper'
+cd qmake\prg\bug_datetime\ && ( if not exist Makefile C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\prg\bug_datetime\bug_datetime.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a" ) && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile 
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/prg/bug_datetime'
+C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++ -c -target armv7a-linux-androideabi21 -fno-limit-debug-info -fPIC -fstack-protector-strong -DANDROID -isystem C:/dev/bug_datetime_wc/bug_datetime/qmake/prg/bug_datetime/../../../boost/1.70.0 -O2 -mthumb -Oz -D_REENTRANT -Wall -W -fPIC -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB -I..\..\..\..\bug_datetime\qmake\prg\bug_datetime -I. -I..\..\..\..\bug_datetime\qmake\lib\bug_datetime_base -I..\..\..\..\bug_datetime\boost\1.70.0 -IC:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\include -IC:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\include\QtWidgets -IC:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\include\QtGui -IC:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\include\QtCore -Iarmeabi-v7a -IC:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\mkspecs\android-clang -o armeabi-v7a\main.obj ..\..\..\..\bug_datetime\qmake\prg\bug_datetime\main.cpp
+C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++ -target armv7a-linux-androideabi21 -fno-limit-debug-info -Wl,-soname,libbug_datetime_armeabi-v7a.so -Wl,--build-id=sha1 -Wl,--no-undefined -Wl,-z,noexecstack -shared -o libbug_datetime_armeabi-v7a.so armeabi-v7a\main.obj   -LC:/dev/bug_datetime_wc/bug_datetime/qmake/prg/bug_datetime/../../../boost/1.70.0/lib/android_armeabi-v7a/r21b/boost_date_time-mt-a32.a -LC:/dev/bug_datetime_wc/bug_datetime/qmake/prg/bug_datetime/../../../boost/1.70.0/lib/android_armeabi-v7a/r21b/boost_system-mt-a32.a C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/prg/bug_datetime/../../lib/bug_datetime_base/libbug_datetime_base_armeabi-v7a.so C:/Android/r21b_Qt5_14/QtCreator5_14_2/5.14.2/android/lib/libQt5Widgets_armeabi-v7a.so C:/Android/r21b_Qt5_14/QtCreator5_14_2/5.14.2/android/lib/libQt5Gui_armeabi-v7a.so C:/Android/r21b_Qt5_14/QtCreator5_14_2/5.14.2/android/lib/libQt5Core_armeabi-v7a.so -lGLESv2   -llog -lz -lm -ldl -lc
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/prg/bug_datetime'
+10:21:37: Le processus "C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle\prebuilt\windows-x86_64\bin\make.exe" s'est terminé normalement.
+10:21:37: Débute : "C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle\prebuilt\windows-x86_64\bin\make.exe" "INSTALL_ROOT=C:\dev\bug_datetime_wc\build-bug_datetime-Android-Release\android-build" install
+cd qmake\lib\bug_datetime_base\ && ( if not exist Makefile C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\lib\bug_datetime_base\bug_datetime_base.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a" ) && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile install
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_base'
+C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -install qinstall -exe libbug_datetime_base_armeabi-v7a.so C:\dev\bug_datetime_wc\build-bug_datetime-Android-Release\android-build\libs\armeabi-v7a\libbug_datetime_base_armeabi-v7a.so
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_base'
+cd qmake\lib\bug_datetime_lib\ && ( if not exist Makefile C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\lib\bug_datetime_lib\bug_datetime_lib.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a" ) && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile install
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_lib'
+C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -install qinstall -exe libbug_datetime_lib_armeabi-v7a.so C:\dev\bug_datetime_wc\build-bug_datetime-Android-Release\android-build\libs\armeabi-v7a\libbug_datetime_lib_armeabi-v7a.so
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_lib'
+cd qmake\lib\bug_datetime_wrapper\ && ( if not exist Makefile C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\lib\bug_datetime_wrapper\bug_datetime_wrapper.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a" ) && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile install
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_wrapper'
+C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -install qinstall -exe libbug_datetime_wrapper_armeabi-v7a.so C:\dev\bug_datetime_wc\build-bug_datetime-Android-Release\android-build\libs\armeabi-v7a\libbug_datetime_wrapper_armeabi-v7a.so
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/lib/bug_datetime_wrapper'
+cd qmake\prg\bug_datetime\ && ( if not exist Makefile C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -o Makefile C:\dev\bug_datetime_wc\bug_datetime\qmake\prg\bug_datetime\bug_datetime.pro -spec android-clang "CONFIG+=qtquickcompiler" "ANDROID_ABIS=armeabi-v7a" ) && C:/Android/r21b_Qt5_14/android_sdk/ndk-bundle/prebuilt/windows-x86_64/bin/make -f Makefile install
+make[1]: Entering directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/prg/bug_datetime'
+C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\qmake.exe -install qinstall -exe libbug_datetime_armeabi-v7a.so C:\dev\bug_datetime_wc\build-bug_datetime-Android-Release\android-build\libs\armeabi-v7a\libbug_datetime_armeabi-v7a.so
+make[1]: Leaving directory 'C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/prg/bug_datetime'
+10:21:50: Le processus "C:\Android\r21b_Qt5_14\android_sdk\ndk-bundle\prebuilt\windows-x86_64\bin\make.exe" s'est terminé normalement.
+10:21:50: Starting: "C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\androiddeployqt.exe" --input C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/prg/bug_datetime/android-bug_datetime-deployment-settings.json --output C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/android-build --android-platform android-29 --jdk C:/Android/r21b_Qt5_14/jdk1.8.0_251 --gradle
+Generating Android Package
+  Input file: C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/qmake/prg/bug_datetime/android-bug_datetime-deployment-settings.json
+  Output directory: C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/android-build/
+  Application binary: bug_datetime
+  Android build platform: android-29
+  Install to device: No
+  -- Skipping C:/Android/r21b_Qt5_14/QtCreator5_14_2/5.14.2/android/plugins/iconengines/libplugins_iconengines_qsvgicon_armeabi-v7a.so. It has unmet dependencies: lib/libQt5Svg_armeabi-v7a.so.
+  -- Skipping C:/Android/r21b_Qt5_14/QtCreator5_14_2/5.14.2/android/plugins/imageformats/libplugins_imageformats_qsvg_armeabi-v7a.so. It has unmet dependencies: lib/libQt5Svg_armeabi-v7a.so.
+Skipping createRCC
+
+> Configure project :
+WARNING: The option setting 'android.bundle.enableUncompressedNativeLibs=false' is experimental and unsupported.
+The current default is 'true'.
+
+
+> Task :preBuild UP-TO-DATE
+> Task :preDebugBuild UP-TO-DATE
+> Task :compileDebugAidl
+> Task :compileDebugRenderscript NO-SOURCE
+> Task :checkDebugManifest
+> Task :generateDebugBuildConfig
+> Task :mainApkListPersistenceDebug
+> Task :generateDebugResValues
+> Task :generateDebugResources
+> Task :createDebugCompatibleScreenManifests
+> Task :processDebugManifest
+> Task :mergeDebugShaders
+> Task :compileDebugShaders
+> Task :generateDebugAssets
+> Task :mergeDebugAssets
+> Task :processDebugJavaRes NO-SOURCE
+> Task :checkDebugDuplicateClasses
+> Task :validateSigningDebug
+> Task :signingConfigWriterDebug
+> Task :mergeDebugJniLibFolders
+> Task :mergeDebugResources
+> Task :processDebugResources
+> Task :mergeDebugNativeLibs
+> Task :stripDebugDebugSymbols
+> Task :javaPreCompileDebug
+
+> Task :compileDebugJavaWithJavac
+
+> Task :compileDebugSources
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :transformClassesWithDexBuilderForDebug
+> Task :mergeExtDexDebug
+> Task :mergeDebugJavaResource
+> Task :mergeDexDebug
+> Task :packageDebug
+> Task :assembleDebug
+
+BUILD SUCCESSFUL in 10s
+25 actionable tasks: 25 executed
+Android package built successfully in 11.959 ms.
+  -- File: C:/dev/bug_datetime_wc/build-bug_datetime-Android-Release/android-build//build/outputs/apk/debug/android-build-debug.apk
+10:22:02: Le processus "C:\Android\r21b_Qt5_14\QtCreator5_14_2\5.14.2\android\bin\androiddeployqt.exe" s'est terminé normalement.
+10:22:02: Elapsed time: 00:50.
