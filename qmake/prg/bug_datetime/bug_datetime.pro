@@ -18,7 +18,7 @@ TEMPLATE = app
 SOURCES += main.cpp
 
 # Include directories:
-INCLUDEPATH += ../bug_datetime_base \
+INCLUDEPATH += ../../lib/bug_datetime_base \
     $${BOOST_DIR}/1.70.0
 
 # Mark external includes with 'isystem' so that we do not get any compilation warning from there:
